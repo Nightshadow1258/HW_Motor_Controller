@@ -1,0 +1,22 @@
+Name,Abbreviation,Definition
+Pin name,"Unless otherwise specified in brackets below the pin name, the pin function during and after
+reset is the same as the actual pin name",
+Pin type,S,Supply pin
+,I,Input only pin
+,I/O,Input / output pin
+I/O structure,FT,5 V tolerant I/O
+,TT,3.6 V tolerant I/O
+,B,Dedicated BOOT0 pin
+,NRST,Bidirectional reset pin with embedded weak pull-up resistor
+,Option for TT or FT I/Os,
+,_a(1),"I/O, with Analog switch function supplied by V
+DDA"
+,_c,"I/O, USB Type-C PD capable"
+,_d,"I/O, USB Type-C PD Dead Battery function"
+,_f(2),"I/O, Fm+ capable"
+,_u(3),"I/O, with USB function"
+Notes,"Unless otherwise specified by a note, all I/Os are set as floating inputs during and after reset",
+Pin functions,"Alternate
+functions",Functions selected through GPIOx_AFR registers
+,"Additional
+functions",Functions directly selected/enabled through peripheral registers

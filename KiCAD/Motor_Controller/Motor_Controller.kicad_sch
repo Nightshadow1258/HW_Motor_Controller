@@ -1,0 +1,2110 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "14236270-3916-4abe-8bcd-f2667a512bce")
+	(paper "A4")
+	(title_block
+		(title "Motor Driver Board")
+		(date "2025-05-01")
+		(rev "V1.0")
+	)
+	(lib_symbols
+		(symbol "MECH:MH-THT-3.2mm_Pad_Via"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MH"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MH-THT-3.2mm_Pad_Via_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCB:Fiducal-JLCPCB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fiducal-JLCPPCB"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCB:PCB-FID-JLCPCB"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "D=1mm, 0,5mm soldermask opening, 3.35mm Edge clearance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducal-JLCPCB_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 134.62 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9bad37-981c-4054-921b-f6eacb8e7a87")
+	)
+	(junction
+		(at 134.62 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74c7ca72-0a5e-41c6-9a5b-d0638150db5f")
+	)
+	(junction
+		(at 134.62 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eca26c9a-ee3b-477b-9872-fd50335945dd")
+	)
+	(wire
+		(pts
+			(xy 161.29 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bf73f2-aede-4298-accd-800378b9aca9")
+	)
+	(wire
+		(pts
+			(xy 134.62 171.45) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d82bd5-8609-4817-9783-f4bda73ff9de")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eef935f-fcd9-44f1-adb0-9b5f0ed22edd")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd2be04-02e4-4554-b2aa-3a7f0971dc5f")
+	)
+	(wire
+		(pts
+			(xy 134.62 181.61) (xy 137.16 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bed89b-410d-48e9-9265-4b08022431d8")
+	)
+	(wire
+		(pts
+			(xy 161.29 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15235aef-696f-434f-aa8f-6339de9e3517")
+	)
+	(wire
+		(pts
+			(xy 134.62 171.45) (xy 134.62 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d3cb19-84cb-41f6-b9e9-fce78df19387")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 180.34 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28be0ad0-34bd-4d7f-b278-d64a94d2b562")
+	)
+	(wire
+		(pts
+			(xy 161.29 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f3617a-204b-4098-bb13-97367118b6c6")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396de91d-c96c-4e4b-8e0b-b74e1a37f70a")
+	)
+	(wire
+		(pts
+			(xy 134.62 166.37) (xy 137.16 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c2ca69-6916-4614-b7ec-579002a794ea")
+	)
+	(wire
+		(pts
+			(xy 90.17 119.38) (xy 102.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40db3a36-497d-4c06-8dab-8a85bcc0005e")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c7a519-5882-4f66-b608-c82060027e52")
+	)
+	(wire
+		(pts
+			(xy 134.62 176.53) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a1b223-6af2-439d-bbbe-612fe5bae65e")
+	)
+	(wire
+		(pts
+			(xy 90.17 130.81) (xy 102.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4d37d7-471a-464f-8d53-a04ea6e4eb52")
+	)
+	(wire
+		(pts
+			(xy 90.17 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae5f186-0a02-4978-9baa-5f72c38bfa9b")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb68162-fd14-44a5-bcf5-d15d40e47eb0")
+	)
+	(wire
+		(pts
+			(xy 90.17 120.65) (xy 102.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6109542a-5817-4da2-a7e8-b7f8279082e5")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 102.87 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cd9e0f-5129-45e0-ba1b-76f90c5aac60")
+	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5be68d-31b2-4fcb-b6ae-34155609d387")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d093d3-34fb-4f5a-b37b-9c8ee0b36cff")
+	)
+	(wire
+		(pts
+			(xy 134.62 181.61) (xy 134.62 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72364516-43d7-4f54-8fcd-62f6bcbf6c9e")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f30886-2bb3-4bad-9466-3209a23617a5")
+	)
+	(wire
+		(pts
+			(xy 90.17 123.19) (xy 102.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c102da4-dca4-41fd-90e1-38a55830d9f8")
+	)
+	(wire
+		(pts
+			(xy 134.62 184.15) (xy 134.62 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956d838e-4f54-4b6d-9dcf-4a30203322d0")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a167a69d-3cdc-4456-b4f5-c241a2e98dbc")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6756577-ad21-41aa-abb4-e1b7391cdebd")
+	)
+	(wire
+		(pts
+			(xy 161.29 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ffd00-b7b7-4bf2-818b-0e4057a631f8")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96c3f6a-c20f-44d0-8f2d-a1a451f5e1cb")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7e0c8d-afc5-4152-b2f9-0552a7b0fae8")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55e416e-6f03-49aa-a927-ad088c12111c")
+	)
+	(wire
+		(pts
+			(xy 134.62 176.53) (xy 137.16 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d054becf-b5f1-4950-bcaf-a7648d4a5506")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41a6518-851b-486e-af56-4cc8fea887b1")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d596a12d-d08c-4707-9000-d25ae1b69cb3")
+	)
+	(wire
+		(pts
+			(xy 90.17 121.92) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e417894d-fecd-4660-bc53-903ae68c24a4")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a51c63-eeee-477e-85c6-922b6ad8d9bc")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5935313-24c0-4d06-99e7-abb3e6a71b6e")
+	)
+	(wire
+		(pts
+			(xy 161.29 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79b5ddb-950c-4b32-b166-de06101f3a0c")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefd8caf-73c1-4991-bd9d-27b9aaae1dae")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f812c499-4f52-41a0-9262-12bf9a8e4b16")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9afd122-33e1-4554-8737-897f2722f7e4")
+	)
+	(symbol
+		(lib_id "MECH:MH-THT-3.2mm_Pad_Via")
+		(at 140.97 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059d7dda-a0be-47f5-9388-a6b5668f7d89")
+		(property "Reference" "MH104"
+			(at 144.018 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf80401d-3f7d-4975-9bc9-26e9d33a94ac")
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "MH104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d2c821c-5417-4c88-9edb-67bba99c7ebb")
+		(property "Reference" "#PWR0101"
+			(at 134.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411c2604-6c22-43b0-8cde-81de97272d23")
+		)
+		(instances
+			(project ""
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MECH:MH-THT-3.2mm_Pad_Via")
+		(at 140.97 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34dbc8fe-d945-4638-847f-bf4bb90cef3e")
+		(property "Reference" "MH101"
+			(at 144.018 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 140.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef9ca196-524a-429c-992b-4bcfb95dd679")
+		)
+		(instances
+			(project ""
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "MH101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MECH:MH-THT-3.2mm_Pad_Via")
+		(at 140.97 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "568d8532-5b59-491f-9098-c27d22045877")
+		(property "Reference" "MH103"
+			(at 144.018 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f657f89e-094c-45fd-8a5f-45ec6a797d5b")
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "MH103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB:Fiducal-JLCPCB")
+		(at 162.56 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "769f46d0-a21f-4d5e-add0-4ea3b68ddb35")
+		(property "Reference" "FID103"
+			(at 165.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducal-JLCPPCB"
+			(at 162.56 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCB:PCB-FID-JLCPCB"
+			(at 162.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "FID103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MECH:MH-THT-3.2mm_Pad_Via")
+		(at 140.97 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7913f7b9-cd39-46b3-8659-ff49062a77fa")
+		(property "Reference" "MH102"
+			(at 144.018 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2d37f6d-2b0f-4384-a1de-9c30c72f0059")
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "MH102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB:Fiducal-JLCPCB")
+		(at 162.56 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "978462c8-f37c-4acc-a282-2c2690dac1df")
+		(property "Reference" "FID104"
+			(at 165.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducal-JLCPPCB"
+			(at 162.56 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCB:PCB-FID-JLCPCB"
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "FID104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB:Fiducal-JLCPCB")
+		(at 162.56 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3eabdfb-25b4-43f7-91b5-ef47dfdf1b3a")
+		(property "Reference" "FID102"
+			(at 165.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducal-JLCPPCB"
+			(at 162.56 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCB:PCB-FID-JLCPCB"
+			(at 162.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "FID102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB:Fiducal-JLCPCB")
+		(at 162.56 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8aefe44-f099-44d6-8803-30f5b1380603")
+		(property "Reference" "FID101"
+			(at 165.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducal-JLCPPCB"
+			(at 162.56 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCB:PCB-FID-JLCPCB"
+			(at 162.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(reference "FID101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 74.93)
+		(size 60.96 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04917792-ed06-4f53-bebe-08d6ae82d4bc")
+		(property "Sheetname" "Motor Driver"
+			(at 180.34 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Driver.kicad_sch"
+			(at 180.34 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GDU_SOA" output
+			(at 180.34 105.41 180)
+			(uuid "b8dcbec1-aa56-44da-80a6-0f5ac0ce6beb")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "GDU_SOB" output
+			(at 180.34 106.68 180)
+			(uuid "00a894c0-786a-49a0-acb6-fb56daa10e8b")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "GDU_SOC" output
+			(at 180.34 107.95 180)
+			(uuid "a8cb0a15-50b1-4a56-ae7a-e50a82f2535e")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_DRVOFF" input
+			(at 180.34 82.55 180)
+			(uuid "efe53719-78b5-4017-ae7f-3b1c8a76b949")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INHA" input
+			(at 180.34 93.98 180)
+			(uuid "d1d97e15-820a-4bea-8293-5e002a7fc47d")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INHB" input
+			(at 180.34 97.79 180)
+			(uuid "445c996a-23cf-4fcb-a98e-f770c5a8969d")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INHC" input
+			(at 180.34 101.6 180)
+			(uuid "046b5562-deaa-4af5-bdea-aaeacdcea339")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INLA" input
+			(at 180.34 95.25 180)
+			(uuid "6490625d-0f6f-4370-98ca-1b14a5bfde9e")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INLB" input
+			(at 180.34 99.06 180)
+			(uuid "c1e000bf-2e62-4796-a148-6dc92c589b28")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_INLC" input
+			(at 180.34 102.87 180)
+			(uuid "e15c3880-1d6e-4afd-a2d7-27197a04045e")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_MISO" input
+			(at 180.34 90.17 180)
+			(uuid "eace7c2b-3790-467f-b430-e611344d2b67")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_SCLK" input
+			(at 180.34 86.36 180)
+			(uuid "2fd7ac4a-0cc2-406a-ba85-3dac4ec9d0fc")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MCU_GDU_SLEEP}" input
+			(at 180.34 81.28 180)
+			(uuid "3b6dbd1e-fb1c-46e2-8d7a-2dced77aab46")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MCU_SPI_CS}" input
+			(at 180.34 87.63 180)
+			(uuid "bfa0de7d-c32f-401d-8cd1-46137ef80ccd")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_SPI_MOSI" input
+			(at 180.34 88.9 180)
+			(uuid "a63520c8-beb8-4ddb-a737-e1a8dc117fa8")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GDU_MCU_FAULT}" output
+			(at 180.34 83.82 180)
+			(uuid "93a0a5ea-90f6-4346-88aa-7b8a62323487")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 74.93)
+		(size 49.53 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "093aea73-3c60-4828-aab1-f823cb6bceb8")
+		(property "Sheetname" "Communication"
+			(at 40.64 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 40.64 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_MCU_ERR" output
+			(at 90.17 123.19 0)
+			(uuid "778c0c40-5c03-40ec-9b12-51a4ef40dff0")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_MCU_RXD" output
+			(at 90.17 132.08 0)
+			(uuid "eb7ba20e-66ee-4569-909b-3fd0b843a3c1")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAN_EN" input
+			(at 90.17 119.38 0)
+			(uuid "e52a346b-d12b-4d15-9b56-e589bba57492")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAN_TXD" input
+			(at 90.17 130.81 0)
+			(uuid "d8fcaaf4-a11d-4787-8e7f-c66332313a4c")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAN_WAKE" input
+			(at 90.17 120.65 0)
+			(uuid "2f9b0a62-1f66-43e0-9da8-968d3b497218")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_MDC" input
+			(at 90.17 88.9 0)
+			(uuid "78e227f5-bbe0-473e-a946-d7001d928b10")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_MDIO" bidirectional
+			(at 90.17 90.17 0)
+			(uuid "00644c41-bfc7-44b9-8aea-436a81db1d1a")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_TXD0" input
+			(at 90.17 95.25 0)
+			(uuid "9ddfacd6-f190-435f-8bbe-eb93905d9897")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_TXD1" input
+			(at 90.17 96.52 0)
+			(uuid "69914b43-c2db-4181-953f-a6afc988c403")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_TXEN" input
+			(at 90.17 93.98 0)
+			(uuid "cb0d83d9-3a45-48c1-ae41-673801531624")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHY_MAC_CRS_DV" output
+			(at 90.17 105.41 0)
+			(uuid "29b19b57-68c5-474c-8758-f937b208a8f2")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHY_MCU_MAC_REFCLKO" output
+			(at 90.17 91.44 0)
+			(uuid "d1f80084-c35e-431d-b20b-6ef481fc390f")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHY_MCU_RXD0" output
+			(at 90.17 100.33 0)
+			(uuid "6b041bde-7574-4c00-9a5d-70bc25d20b61")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHY_MCU_RXD1" output
+			(at 90.17 101.6 0)
+			(uuid "1859d3ab-275a-4b8f-8b34-92703bff7db4")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_CAN_STB}" input
+			(at 90.17 121.92 0)
+			(uuid "0466ba64-9041-4bf7-ae50-a7cfe5b9c664")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_PHY_RST}" input
+			(at 90.17 87.63 0)
+			(uuid "9571b4d8-2e4d-449c-9bb1-d75929acd59a")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 74.93)
+		(size 58.42 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19472a59-9bd5-47e2-bdac-d96b82c6b1ec")
+		(property "Sheetname" "MCU Board"
+			(at 102.87 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 102.87 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FDCAN1_RX" input
+			(at 102.87 132.08 180)
+			(uuid "548dbbdc-4f3f-44aa-8c41-61e1357247c8")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN1_TX" input
+			(at 102.87 130.81 180)
+			(uuid "bbd048ff-51c2-4eb1-81ba-526d63536e72")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "GDU_MCU_TIM1_BKIN" input
+			(at 161.29 83.82 0)
+			(uuid "c3231312-8e63-413c-b876-efb2079e85bd")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_TIM1_CH1" output
+			(at 161.29 93.98 0)
+			(uuid "4753d714-55ac-42a7-b412-8ba442c624b7")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_TIM1_CH2" output
+			(at 161.29 97.79 0)
+			(uuid "da400d09-5ec0-4229-8f10-6e9d9e286d61")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_TIM1_CH3" output
+			(at 161.29 101.6 0)
+			(uuid "c043b120-0b60-4d33-95de-1e92a097e8f7")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PHY_MDC" output
+			(at 102.87 88.9 180)
+			(uuid "8a604879-878a-4940-b9e2-7e5daf557ef3")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PHY_MDIO" bidirectional
+			(at 102.87 90.17 180)
+			(uuid "396c46eb-34d5-4079-a426-bec2681b1ca6")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PHY_TXD0" output
+			(at 102.87 95.25 180)
+			(uuid "ae7b4cd9-f6f2-4ae2-a47d-969d80d2bb0c")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PHY_TXD1" output
+			(at 102.87 96.52 180)
+			(uuid "0a8ecc7c-6f5b-4174-b773-c1c3dec71d54")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_PHY_TXEN" output
+			(at 102.87 93.98 180)
+			(uuid "5f8ecba0-7f34-495f-9e29-74447c4ce86d")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_MAC_CRS_DV" input
+			(at 102.87 105.41 180)
+			(uuid "49b0db5e-2d98-4b19-916f-de3e0fa13c50")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_MCU_MAC_REFCLKO" input
+			(at 102.87 91.44 180)
+			(uuid "10f4b162-538e-4550-8e85-6fb27bdc29a1")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_MCU_RXD0" input
+			(at 102.87 100.33 180)
+			(uuid "1ee3fcc6-8ac7-4cac-a0a7-48360c5240b5")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_MCU_RXD1" input
+			(at 102.87 101.6 180)
+			(uuid "8e58e8b5-7eeb-4a17-b967-c3ed26d4dfdd")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MCU_GDU_TIM1_CH1}" output
+			(at 161.29 95.25 0)
+			(uuid "54aaf81f-a2f7-465a-8665-cafdcbc68246")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_GDU_TIM1_CH2}" output
+			(at 161.29 99.06 0)
+			(uuid "ee7fc35f-4634-467d-972b-2a3092308cea")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_GDU_TIM1_CH3}" output
+			(at 161.29 102.87 0)
+			(uuid "ba58bbdf-ba79-421f-aecc-0a110de8f611")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "GDU_MCU_ADC1_INP9_SOA" input
+			(at 161.29 105.41 0)
+			(uuid "43efcda0-47e2-4aed-ba91-0c6ed6853674")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "GDU_MCU_ADC2_INP5_SOB" input
+			(at 161.29 106.68 0)
+			(uuid "892f72f6-64a1-43ba-8436-a8b076334eff")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "GDU_MCU_ADC3_INP1_SOC" input
+			(at 161.29 107.95 0)
+			(uuid "02360303-2871-42d7-9529-f43e8416b80b")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "GDU_MCU_SPI1_MISO" input
+			(at 161.29 90.17 0)
+			(uuid "6977a32a-9865-4a45-91f7-06712cb283b7")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_SPI1_MOSI" output
+			(at 161.29 88.9 0)
+			(uuid "b4d2a367-4cb9-4828-9e9e-236e30dc7d11")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_SPI1_NNS" output
+			(at 161.29 87.63 0)
+			(uuid "8f274d84-adf4-4da5-acb1-479edc7cbb3a")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_GDU_SPI1_SCK" output
+			(at 161.29 86.36 0)
+			(uuid "0319cdbf-977d-4934-be1c-1cb6409ff5cc")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_PHY_RST}" output
+			(at 102.87 87.63 180)
+			(uuid "3dcbfd4a-c559-4962-b76d-bcf166ae0b1f")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_MCU_ERR" input
+			(at 102.87 123.19 180)
+			(uuid "ec373fe0-e238-4971-b8d2-18f1b95424b5")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_CAN_EN" output
+			(at 102.87 119.38 180)
+			(uuid "da22e014-00ec-4f4b-b7a8-b932c813e902")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_CAN_WAKE" output
+			(at 102.87 120.65 180)
+			(uuid "f80208a4-427c-48f5-8951-38ec702e134c")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{MCU_CAN_STB}" output
+			(at 102.87 121.92 180)
+			(uuid "9ac702c4-ad0a-47eb-980d-4453e5bc997e")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_GDU_DRVOFF" output
+			(at 161.29 82.55 0)
+			(uuid "b7b32285-0bb5-4d67-b489-2d44ec059aa2")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{MCU_GDU_SLEEP}" output
+			(at 161.29 81.28 0)
+			(uuid "edb5e4b6-76a6-47d2-9af7-d72f4bec6d4a")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3V_PG" input
+			(at 149.86 74.93 90)
+			(uuid "dd63aacb-3c21-493a-b6d2-f2be29ac8a13")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 46.99)
+		(size 201.93 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a728582-cd9a-4259-974c-aef3d01965a9")
+		(property "Sheetname" "Power"
+			(at 40.64 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 40.64 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V_PG" output
+			(at 149.86 66.04 270)
+			(uuid "5e39dce8-8ee6-41ce-8006-19921d7535b7")
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DRV8334_Board"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
