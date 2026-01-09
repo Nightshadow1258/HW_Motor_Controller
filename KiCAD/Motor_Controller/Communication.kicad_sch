@@ -5,9 +5,10 @@
 	(uuid "fcbe1e62-35e3-4a1a-a902-a55e3ba5ea2e")
 	(paper "A4")
 	(title_block
-		(title "Motor Driver Board")
-		(date "2025-05-01")
-		(rev "V1.0")
+		(title "Motor Controller Prototype")
+		(date "2026-01-08")
+		(rev "V1.0.0")
+		(company "Nightshadow1258")
 	)
 	(lib_symbols
 		(symbol "CAP:C-100nF-0402-16V-X7R-10%"
@@ -6133,6 +6134,12 @@
 		(uuid "ab815abd-6b2c-46fa-aab9-419984d9aaa1")
 	)
 	(junction
+		(at 198.12 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3681a7-bd74-4186-acca-17e7cee809e0")
+	)
+	(junction
 		(at 106.68 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6410,6 +6417,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 142.24) (xy 198.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d47c84-e842-4e12-bf27-a8837f315e6c")
+	)
+	(wire
+		(pts
 			(xy 233.68 87.63) (xy 233.68 86.36)
 		)
 		(stroke
@@ -6547,6 +6564,16 @@
 			(type default)
 		)
 		(uuid "2177b8ab-5afb-4559-a1c7-4b6708d8058e")
+	)
+	(wire
+		(pts
+			(xy 199.39 148.59) (xy 194.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d4c062-fa25-477d-b095-750fd1978ffe")
 	)
 	(wire
 		(pts
@@ -7390,6 +7417,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 158.75) (xy 198.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825c16ef-43ad-41b4-9c25-1877905f7af5")
+	)
+	(wire
+		(pts
 			(xy 96.52 149.86) (xy 96.52 139.7)
 		)
 		(stroke
@@ -7680,6 +7717,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 153.67) (xy 198.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c7f0a4-4390-4ae0-bcd4-f3e86c4ae8e7")
+	)
+	(wire
+		(pts
 			(xy 223.52 49.53) (xy 228.6 49.53)
 		)
 		(stroke
@@ -7717,6 +7764,16 @@
 			(type default)
 		)
 		(uuid "bc34c534-6099-4685-8d75-e8f80511a516")
+	)
+	(wire
+		(pts
+			(xy 194.31 151.13) (xy 199.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf749f9-c578-4910-b5ec-acb0efea0408")
 	)
 	(wire
 		(pts
@@ -7840,6 +7897,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 146.05) (xy 198.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84d3bd8-e4a8-4876-b31b-c53fb33916a6")
+	)
+	(wire
+		(pts
 			(xy 36.83 41.91) (xy 36.83 40.64)
 		)
 		(stroke
@@ -7927,6 +7994,16 @@
 			(type default)
 		)
 		(uuid "d3b40666-f0fe-4254-bdbd-bfc6ead882d0")
+	)
+	(wire
+		(pts
+			(xy 198.12 153.67) (xy 198.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44e4c0e-be1d-47c7-8c86-b0368a9e006c")
 	)
 	(wire
 		(pts
@@ -8127,6 +8204,16 @@
 			(type default)
 		)
 		(uuid "e88f6253-564e-44f8-87bc-bf2846ea908c")
+	)
+	(wire
+		(pts
+			(xy 198.12 157.48) (xy 203.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c8a297-524b-42d3-9cb5-57bd5777f0e3")
 	)
 	(wire
 		(pts
@@ -10874,6 +10961,16 @@
 		)
 		(uuid "5f9c94b5-e1eb-49de-8007-0d9f73409634")
 	)
+	(label "CANH"
+		(at 194.31 148.59 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "717c2fbe-1b35-4d57-8ef3-bff4770304d8")
+	)
 	(label "MODE2"
 		(at 115.7638 90.17 0)
 		(effects
@@ -10993,6 +11090,16 @@
 			(justify left bottom)
 		)
 		(uuid "d47c3deb-1845-48ed-b93e-40e7212faefc")
+	)
+	(label "CANL"
+		(at 194.31 151.13 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "d70369cf-9d13-4c76-8ec9-81d109659fc7")
 	)
 	(label "VDDCR"
 		(at 114.3 54.61 0)
@@ -12138,6 +12245,82 @@
 		)
 	)
 	(symbol
+		(lib_id "CON:SM04B-ZESS-TB")
+		(at 203.2 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "273794a3-b3d5-41d4-ad42-9f259a8f6d85")
+		(property "Reference" "CON403"
+			(at 208.788 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-ZESS-TB"
+			(at 213.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CON:CON-SM04B-ZESS-TB"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/JST_CON_ZE.pdf"
+			(at 203.2 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Pin JST ZE Connector, max. 2A"
+			(at 203.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6dbe4d3e-0486-4691-935b-b9eea90c08fb")
+		)
+		(pin "1"
+			(uuid "6d54e256-1d49-47fb-82a7-e986ad1b7ea9")
+		)
+		(pin "SH"
+			(uuid "8e9eaa26-88c1-4f61-b296-e767433ec0a9")
+		)
+		(pin "4"
+			(uuid "b267ef09-12a0-4099-8cfe-734f480231a0")
+		)
+		(pin "2"
+			(uuid "79c1ef71-12a1-49f8-a266-071a72a36dd9")
+		)
+		(instances
+			(project "Motor_Controller"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce/093aea73-3c60-4828-aab1-f823cb6bceb8"
+					(reference "CON403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RES:R-47-0402-62.5mW-1%")
 		(at 114.3 97.79 90)
 		(unit 1)
@@ -12241,7 +12424,7 @@
 		(dnp no)
 		(uuid "2824f810-1cbe-4386-a998-896cfc703346")
 		(property "Reference" "CON402"
-			(at 177.8 147.32 0)
+			(at 179.832 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15097,6 +15280,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "911d977f-a1e6-43aa-9cbb-0d1fc949f016")
+		(property "Reference" "#PWR0427"
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c84953e-9741-4cc0-879a-2d4c2299045b")
+		)
+		(instances
+			(project "Motor_Controller"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce/093aea73-3c60-4828-aab1-f823cb6bceb8"
+					(reference "#PWR0427")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RES:R-4.7k-0402-62.5mW-1%")
 		(at 245.11 106.68 0)
 		(unit 1)
@@ -15634,6 +15882,71 @@
 			(project ""
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce/093aea73-3c60-4828-aab1-f823cb6bceb8"
 					(reference "C409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf4975a-b9fb-476f-81d0-5a47d0e45c72")
+		(property "Reference" "#PWR0428"
+			(at 198.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a11fba53-4a14-4ac2-9f8b-42f77b5e9810")
+		)
+		(instances
+			(project "Motor_Controller"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce/093aea73-3c60-4828-aab1-f823cb6bceb8"
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)

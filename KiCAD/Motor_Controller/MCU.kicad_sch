@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "374928de-31d4-4de5-a255-fbda63011315")
 	(paper "A4")
+	(title_block
+		(title "Motor Controller Prototype")
+		(date "2026-01-08")
+		(rev "V1.0.0")
+		(company "Nightshadow1258")
+	)
 	(lib_symbols
 		(symbol "CAP:C-100nF-0402-16V-X7R-10%"
 			(pin_numbers

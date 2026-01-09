@@ -5,9 +5,10 @@
 	(uuid "d2498b5c-2cbd-42cf-be64-6c8e330c7630")
 	(paper "A4")
 	(title_block
-		(title "Motor Driver Board")
-		(date "2025-05-01")
-		(rev "V1.0")
+		(title "Motor Controller Prototype")
+		(date "2026-01-08")
+		(rev "V1.0.0")
+		(company "Nightshadow1258")
 	)
 	(lib_symbols
 		(symbol "CAP:C-100nF-0402-16V-X7R-10%"
