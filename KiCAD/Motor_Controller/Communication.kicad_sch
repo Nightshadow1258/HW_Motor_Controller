@@ -890,7 +890,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
+			(property "Footprint" "CON:CON-RJ45-HR911105A-H"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -5797,6 +5797,18 @@
 		)
 	)
 	(rectangle
+		(start 160.655 47.625)
+		(end 163.83 52.705)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3edabdbf-db8c-4845-a010-6cd0b3f7b56f)
+	)
+	(rectangle
 		(start 53.34 38.1)
 		(end 90.17 49.53)
 		(stroke
@@ -5844,6 +5856,18 @@
 			(type none)
 		)
 		(uuid 953ac240-92bb-4c90-9419-858373b42183)
+	)
+	(rectangle
+		(start 160.655 52.705)
+		(end 163.83 57.785)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4fd9824-4451-43c4-959e-78387889345f)
 	)
 	(rectangle
 		(start 83.82 73.66)
@@ -5907,6 +5931,16 @@
 			)
 		)
 		(uuid "833f3a37-9d79-410a-8366-80e9f65ded48")
+	)
+	(text "diff pairs"
+		(exclude_from_sim no)
+		(at 162.56 46.99 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "be14dc8b-452e-46fc-9901-fbf9c76de9f0")
 	)
 	(text "decoupling for internal Regulator"
 		(exclude_from_sim no)
@@ -10951,6 +10985,16 @@
 		)
 		(uuid "338d5130-408e-4d4e-887e-43e62ff7e0ad")
 	)
+	(label "TXP"
+		(at 161.29 49.53 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "34597ab7-5a7f-4cad-87cb-3583b66264a9")
+	)
 	(label "CANL"
 		(at 165.1 154.94 180)
 		(effects
@@ -11031,6 +11075,16 @@
 		)
 		(uuid "ae4eb038-9dcd-41a7-a6a2-51e6cfac6796")
 	)
+	(label "TXN"
+		(at 161.29 52.07 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1fba9b0-f97b-4315-a94f-4725cde0692a")
+	)
 	(label "LED2_ANODE"
 		(at 194.31 77.47 180)
 		(effects
@@ -11071,6 +11125,16 @@
 		)
 		(uuid "c63995f8-22e7-448a-a853-c24d9cbc9d79")
 	)
+	(label "RXP"
+		(at 161.29 54.61 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "cac85c54-a805-4bf7-a0da-0fe35161f1f1")
+	)
 	(label "MODE0"
 		(at 115.57 82.55 0)
 		(effects
@@ -11080,6 +11144,16 @@
 			(justify left bottom)
 		)
 		(uuid "cbc8b0dd-5977-40bb-b864-f931deebc7f0")
+	)
+	(label "RXN"
+		(at 161.29 57.15 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2368c7e-e325-4947-aba2-85f36c3b0f54")
 	)
 	(label "MODE1"
 		(at 115.57 85.09 0)
@@ -15040,7 +15114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
+		(property "Footprint" "CON:CON-RJ45-HR911105A-H"
 			(at 250.19 36.83 0)
 			(effects
 				(font

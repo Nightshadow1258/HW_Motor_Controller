@@ -6539,7 +6539,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RES:R-SH-BVB-Z-R0005"
+		(symbol "RES:R-SH-BVN-M-R001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6551,7 +6551,7 @@
 					)
 				)
 			)
-			(property "Value" "0.5m"
+			(property "Value" "1m"
 				(at -3.81 1.524 0)
 				(effects
 					(font
@@ -6559,7 +6559,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RES:R-SH-2725"
+			(property "Footprint" "RES:R-SH-1216"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6586,7 +6586,7 @@
 					(hide yes)
 				)
 			)
-			(property "Size" "2725"
+			(property "Size" "1216"
 				(at 0 0 90)
 				(effects
 					(font
@@ -6602,7 +6602,7 @@
 					)
 				)
 			)
-			(symbol "R-SH-BVB-Z-R0005_0_1"
+			(symbol "R-SH-BVN-M-R001_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -6639,7 +6639,7 @@
 					)
 				)
 			)
-			(symbol "R-SH-BVB-Z-R0005_1_1"
+			(symbol "R-SH-BVN-M-R001_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -16476,7 +16476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RES:R-SH-BVB-Z-R0005")
+		(lib_id "RES:R-SH-BVN-M-R001")
 		(at 171.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16492,7 +16492,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5m"
+		(property "Value" "1m"
 			(at 167.64 88.646 0)
 			(effects
 				(font
@@ -16500,7 +16500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES:R-SH-2725"
+		(property "Footprint" "RES:R-SH-1216"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -16527,7 +16527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size" "2725"
+		(property "Size" "1216"
 			(at 171.45 90.17 90)
 			(effects
 				(font
@@ -22264,7 +22264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RES:R-SH-BVB-Z-R0005")
+		(lib_id "RES:R-SH-BVN-M-R001")
 		(at 267.97 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22280,7 +22280,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5m"
+		(property "Value" "1m"
 			(at 264.16 89.916 0)
 			(effects
 				(font
@@ -22288,7 +22288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES:R-SH-2725"
+		(property "Footprint" "RES:R-SH-1216"
 			(at 267.97 91.44 0)
 			(effects
 				(font
@@ -22315,7 +22315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size" "2725"
+		(property "Size" "1216"
 			(at 267.97 91.44 90)
 			(effects
 				(font
@@ -23210,7 +23210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RES:R-SH-BVB-Z-R0005")
+		(lib_id "RES:R-SH-BVN-M-R001")
 		(at 218.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23226,7 +23226,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5m"
+		(property "Value" "1m"
 			(at 214.63 88.646 0)
 			(effects
 				(font
@@ -23234,7 +23234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RES:R-SH-2725"
+		(property "Footprint" "RES:R-SH-1216"
 			(at 218.44 90.17 0)
 			(effects
 				(font
@@ -23261,7 +23261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size" "2725"
+		(property "Size" "1216"
 			(at 218.44 90.17 90)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-27170617935121294
+27177698923374289
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2862,6 +2862,13 @@ CON-MR30-M
 0
 3
 3
+CON
+CON-RJ45-HR911105A-H
+1 Port RJ45 8P8C receptacle, shielded, with magnetics, through hole, 2 LEDs, tab down, http://www.hanrun.com/public/upload/down/2020/09-11/cc11be56d66bb63d5f1eeb85492439c0.pdf
+RJ45 Magjack ethernet
+0
+14
+13
 CON
 CON-SM02B-ZESS_TB
 
@@ -63189,6 +63196,13 @@ L_0806
 2
 2
 IND_SMD
+L_SXN_SMNR4020
+
+
+0
+2
+2
+IND_SMD
 L_TDK_VLS3012E
 
 
@@ -94849,6 +94863,20 @@ QFN NoLead
 0
 59
 33
+RES
+R-SH-1216
+
+
+0
+4
+4
+RES
+R-SH-1216_flip
+
+
+0
+4
+4
 RES
 R-SH-2725
 

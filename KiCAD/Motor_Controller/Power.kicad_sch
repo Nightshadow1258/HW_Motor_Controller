@@ -1624,164 +1624,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D:D-SCHOTTKY-SS34"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34"
-				(at -0.254 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0.254 8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "${KICAD_DATASHEET}/Diode-SS34.pdf"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3A/40V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C8678"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "I_avg" "3A"
-				(at -5.08 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "V" "40V"
-				(at -8.382 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D-SCHOTTKY-SS34_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D-SCHOTTKY-SS34_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "IC-PWREG:IC-PWREG-LM74700"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2606,7 +2448,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IND:L-10uH-6x6-1.95A-20%"
+		(symbol "IND:L-10uH-4x4-1.6A-20%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2632,7 +2474,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6028S"
+			(property "Footprint" "IND_SMD:L_SXN_SMNR4020"
 				(at -0.635 -0.635 0)
 				(effects
 					(font
@@ -2641,7 +2483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "${KICAD_DATASHEET}/C65664.pdf"
+			(property "Datasheet" "${KICAD_DATASHEET}/SXN_SMNR40X0.pdf"
 				(at -4.318 2.032 0)
 				(effects
 					(font
@@ -2659,7 +2501,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C65664"
+			(property "LCSC Part #" "    C135263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2695,7 +2537,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L-10uH-6x6-1.95A-20%_0_1"
+			(symbol "L-10uH-4x4-1.6A-20%_0_1"
 				(arc
 					(start -2.032 0)
 					(mid -1.524 0.5058)
@@ -2745,7 +2587,7 @@
 					)
 				)
 			)
-			(symbol "L-10uH-6x6-1.95A-20%_1_1"
+			(symbol "L-10uH-4x4-1.6A-20%_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.508)
@@ -7442,101 +7284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "D:D-SCHOTTKY-SS34")
-		(at 86.36 91.44 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "118ddfc9-6809-47bf-ac5f-001236b9d49b")
-		(property "Reference" "D501"
-			(at 82.296 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 82.296 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 77.724 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KICAD_DATASHEET}/Diode-SS34.pdf"
-			(at 80.01 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A/40V"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C8678"
-			(at 77.978 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I_avg" "3A"
-			(at 82.804 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V" "40V"
-			(at 83.058 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eacfc101-cfe7-46b0-9068-74f7587f6129")
-		)
-		(pin "1"
-			(uuid "62a9fe3f-ae66-4fcf-9589-9b84072c89f5")
-		)
-		(instances
-			(project ""
-				(path "/14236270-3916-4abe-8bcd-f2667a512bce/4a728582-cd9a-4259-974c-aef3d01965a9"
-					(reference "D501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 260.35 88.9 0)
 		(unit 1)
@@ -9388,7 +9135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "IND:L-10uH-6x6-1.95A-20%")
+		(lib_id "IND:L-10uH-4x4-1.6A-20%")
 		(at 90.17 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9405,14 +9152,14 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 90.17 88.9 0)
+			(at 90.17 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6028S"
+		(property "Footprint" "IND_SMD:L_SXN_SMNR4020"
 			(at 89.535 88.265 0)
 			(effects
 				(font
@@ -9421,7 +9168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KICAD_DATASHEET}/C65664.pdf"
+		(property "Datasheet" "${KICAD_DATASHEET}/SXN_SMNR40X0.pdf"
 			(at 85.852 85.598 0)
 			(effects
 				(font
@@ -9439,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C65664"
+		(property "LCSC Part #" "    C135263"
 			(at 90.17 87.63 0)
 			(effects
 				(font
@@ -11298,6 +11045,98 @@
 			(project ""
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce/4a728582-cd9a-4259-974c-aef3d01965a9"
 					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "D:D-SCHOTTKY-1N5819WS")
+		(at 86.36 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c77bfa41-8c73-4581-8b79-608e01788adc")
+		(property "Reference" "D501"
+			(at 81.788 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 83.82 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 80.264 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KICAD_DATASHEET}/1N5819WS.pdf"
+			(at 80.772 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C191023"
+			(at 78.74 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_F" "0.6V@1A"
+			(at 85.344 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I_A" "1A"
+			(at 85.598 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae036353-a2b2-4f9c-9595-85980a06cfe0")
+		)
+		(pin "2"
+			(uuid "d9ae8d81-15c4-4376-b070-9e4f9b6e8033")
+		)
+		(instances
+			(project "Motor_Controller"
+				(path "/14236270-3916-4abe-8bcd-f2667a512bce/4a728582-cd9a-4259-974c-aef3d01965a9"
+					(reference "D501")
 					(unit 1)
 				)
 			)
