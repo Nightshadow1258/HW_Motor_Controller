@@ -562,7 +562,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D_Export/AS5047P_DevKit.step",
       "svg": "",
       "vrml": ""
     },
