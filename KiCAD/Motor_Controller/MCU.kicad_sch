@@ -8022,6 +8022,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 107.95) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040fc5f0-07fd-4a2c-a52c-619e16567d76")
+	)
+	(wire
+		(pts
 			(xy 245.11 54.61) (xy 245.11 57.15)
 		)
 		(stroke
@@ -8309,16 +8319,6 @@
 			(type default)
 		)
 		(uuid "2043d315-8172-4623-9184-ba0be9d015e3")
-	)
-	(wire
-		(pts
-			(xy 229.87 107.95) (xy 226.06 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e922cf-33ef-4be9-9322-151d85f2c4b2")
 	)
 	(wire
 		(pts
@@ -8852,6 +8852,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 118.11) (xy 237.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501b7d25-6396-4181-9b97-dd01d11907df")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 135.89 63.5)
 		)
 		(stroke
@@ -8949,16 +8959,6 @@
 			(type default)
 		)
 		(uuid "5820ccab-c553-4f63-8c36-c269ac79e073")
-	)
-	(wire
-		(pts
-			(xy 226.06 118.11) (xy 237.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59cdb8d4-c948-446f-8a52-ed4645e648b0")
 	)
 	(wire
 		(pts
@@ -13559,7 +13559,8 @@
 	)
 	(symbol
 		(lib_id "D_TVS:USBLC6-2SC6")
-		(at 215.9 105.41 0)
+		(at 215.9 120.65 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13567,7 +13568,7 @@
 		(dnp no)
 		(uuid "54739ad5-4d97-4bc8-b523-480399d7498b")
 		(property "Reference" "D201"
-			(at 208.915 104.14 0)
+			(at 215.9 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13576,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2"
-			(at 215.9 121.92 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,7 +13584,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 217.17 85.09 0)
+			(at 217.17 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13592,7 +13593,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/usblc6-2.pdf"
-			(at 217.17 87.63 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,7 +13602,7 @@
 			)
 		)
 		(property "Description" "ESD-Entstörer/TVS-Dioden ESD Protection Low Cap, Unidirectional"
-			(at 215.9 105.41 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,7 +13611,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7519"
-			(at 226.06 91.44 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +13638,7 @@
 			(uuid "adf6cc50-83e2-4dac-b786-082197d63355")
 		)
 		(instances
-			(project ""
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce/19472a59-9bd5-47e2-bdac-d96b82c6b1ec"
 					(reference "D201")
 					(unit 1)
