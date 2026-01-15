@@ -1977,42 +1977,6 @@
 					)
 				)
 				(pin input line
-					(at 24.13 -81.28 180)
-					(length 2.54)
-					(name "SPB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 24.13 -83.82 180)
-					(length 2.54)
-					(name "SNB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 24.13 -87.63 180)
 					(length 2.54)
 					(name "SPC"
@@ -3419,6 +3383,42 @@
 						)
 					)
 					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -81.28 180)
+					(length 2.54)
+					(name "SPB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -83.82 180)
+					(length 2.54)
+					(name "SNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17376,11 +17376,12 @@
 		(fields_autoplaced yes)
 		(uuid "569a1483-38a3-4122-9387-4e5a2f5ecd7c")
 		(property "Reference" "IC301"
-			(at 86.36 27.7325 0)
+			(at 82.0155 27.7325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "DRV8334"
@@ -17392,7 +17393,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:Texas_PHP0048E_HTQFP-48-1EP_7x7mm_P0.5mm_EP6.5x6.5mm_Mask3.62x3.62mm_ThermalVias"
-			(at 120.65 124.46 0)
+			(at 95.758 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17410,7 +17411,7 @@
 			)
 		)
 		(property "Description" "3-phase motor controller with 3x integrated CSA"
-			(at 120.65 124.46 0)
+			(at 86.36 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18590,7 +18591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 193.04 0)
+			(at 87.122 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,7 +18750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 167.64 0)
+			(at 87.122 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
