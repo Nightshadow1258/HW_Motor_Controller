@@ -1,0 +1,54 @@
+# Path to the input CSV file
+input_file: input/AS5047P_4096_BLDC_Mot.csv
+
+# Data switch parameter
+# Set to true to track SPI data, set to false to process ABI data instead
+use_spi: true
+
+# Source column names matching your input schema
+spi_angle_column: "Angle from SPI [°]"
+abi_angle_column: "Angle from ABI [°]"
+
+# Harmonic configuration
+num_harmonics: 4
+
+# Header cleanup rules (strings to remove from column names)
+header_cleanup:
+  - "[Mhz]"
+  - "[dBm]"
+
+columns_to_plot: [1,2]
+
+# Plot formatting options
+plot_format:
+  size:
+    width: 12
+    height: 7.5
+  font_sizes:
+    axis: 12
+    title: 14
+    legend: 10
+    ticks: 10
+  grid:
+    major:
+      color: "#00000000"
+      linestyle: ":"
+      linewidth: 0.8
+    minor:
+      color: "#A8A8A8C8"
+      linestyle: ":"
+      linewidth: 0.5
+  axis_labels:
+    x: "Time [ms]"
+    y: "Angle [deg]"
+  plot_title: "Angle Analysis Pipeline"
+
+x_window: [20, 600]
+x_axis_col: 1
+output_dir: output
+
+save_formats:
+  image:
+    - "png"
+  data:
+    - "csv"

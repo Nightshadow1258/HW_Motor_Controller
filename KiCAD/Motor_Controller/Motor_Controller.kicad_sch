@@ -759,7 +759,7 @@
 			(uuid "cf80401d-3f7d-4975-9bc9-26e9d33a94ac")
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "MH104")
 					(unit 1)
@@ -824,7 +824,7 @@
 			(uuid "411c2604-6c22-43b0-8cde-81de97272d23")
 		)
 		(instances
-			(project ""
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "#PWR0101")
 					(unit 1)
@@ -898,7 +898,7 @@
 			(uuid "ef9ca196-524a-429c-992b-4bcfb95dd679")
 		)
 		(instances
-			(project ""
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "MH101")
 					(unit 1)
@@ -972,7 +972,7 @@
 			(uuid "f657f89e-094c-45fd-8a5f-45ec6a797d5b")
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "MH103")
 					(unit 1)
@@ -1044,7 +1044,7 @@
 			)
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "FID103")
 					(unit 1)
@@ -1118,7 +1118,7 @@
 			(uuid "b2d37f6d-2b0f-4384-a1de-9c30c72f0059")
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "MH102")
 					(unit 1)
@@ -1190,7 +1190,7 @@
 			)
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "FID104")
 					(unit 1)
@@ -1262,7 +1262,7 @@
 			)
 		)
 		(instances
-			(project "DRV8334_Board"
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "FID102")
 					(unit 1)
@@ -1334,7 +1334,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Motor_Controller"
 				(path "/14236270-3916-4abe-8bcd-f2667a512bce"
 					(reference "FID101")
 					(unit 1)

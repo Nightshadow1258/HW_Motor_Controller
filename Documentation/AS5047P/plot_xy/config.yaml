@@ -1,0 +1,65 @@
+# Path to the input CSV file
+# Option 1: Specify a single file
+input_file: input/AS5047P_4096_BLDC_Mot.csv
+
+# Option 2: Specify multiple files
+# input_files:
+#   - input/plot1.csv
+#   - input/plot2.csv
+
+# If neither is specified, all CSVs in the input/ folder will be processed
+# input_file: input/input.csv
+
+# Header cleanup rules (strings to remove from column names)
+header_cleanup:
+  - "[Mhz]"
+  - "[dBm]"
+
+# Indices of columns to plot (excluding time column) = [1, 3, 5] would plot the 2nd, 4th, and 6th columns
+# Leave empty or omit to plot all available columns = []
+columns_to_plot: [1,2]
+
+# Plot formatting options (default settings)
+plot_format:
+  size:
+    width: 12
+    height: 7.5
+  font_sizes:
+    axis: 14
+    title: 16
+    legend: 12
+    ticks: 12
+  grid:
+    major:
+      color: "#00000000"
+      linestyle: ":"
+      linewidth: 0.8
+    minor:
+      color: "#A8A8A8C8"
+      linestyle: ":"
+      linewidth: 0.5
+  axis_labels:
+    x: "Time [ms]"
+    y: "Angle [deg]"
+  plot_title: "Angle vs Time"
+
+# window for x axis [start, end]
+# Leave empty or omit to plot full range
+x_window: [20, 600]
+
+# Index of the column to use for the X-axis (default is 0, which is the first column)
+x_axis_col: 1
+
+# Output directory (optional — defaults to "output/")
+# output_dir: output
+
+# save_formats: 
+# image formats to save, supported formats include: "jpeg", "png", "pdf", "svg"
+# data formats to save, supported formats include: "csv", "xlsx"
+save_formats:
+  image:
+    - "jpeg"
+    - "pdf"
+  data:
+    - "csv"
+    - "xlsx"

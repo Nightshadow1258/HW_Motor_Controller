@@ -47212,24 +47212,14 @@
 		)
 	)
 	(gr_line
-		(start 92.497767 134.992233)
-		(end 187.502233 134.992233)
+		(start 89.997767 52.497767)
+		(end 90.000003 132.492233)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "1845d1a5-ae2c-4392-b2a7-10684b7c9e23")
-	)
-	(gr_line
-		(start 190.002233 132.492233)
-		(end 190.012233 52.497767)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "1c170825-1bb9-4ac4-bf15-deb4dece6a27")
+		(uuid "c3dfe526-07f7-4472-91f4-86d6cf1a789c")
 	)
 	(gr_arc
 		(start 89.997767 52.497767)
@@ -47242,27 +47232,6 @@
 		(layer "Edge.Cuts")
 		(uuid "2b039ad9-832b-46db-8265-0c470635402f")
 	)
-	(gr_line
-		(start 187.5122 49.997767)
-		(end 92.4978 49.997767)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "322a8b6b-b53f-4b1b-b5b7-45fb2b157142")
-	)
-	(gr_arc
-		(start 190.002233 132.492233)
-		(mid 189.27 134.26)
-		(end 187.502233 134.992233)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4cd8ea6a-2b57-4bf5-9117-2100209d8fa1")
-	)
 	(gr_arc
 		(start 92.497767 134.992233)
 		(mid 90.73 134.26)
@@ -47273,6 +47242,26 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "55a4fbe6-ea49-4860-91a0-ee83c7195c01")
+	)
+	(gr_line
+		(start 92.497767 134.992233)
+		(end 187.502233 134.992233)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1845d1a5-ae2c-4392-b2a7-10684b7c9e23")
+	)
+	(gr_line
+		(start 187.5122 49.997767)
+		(end 92.4978 49.997767)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "322a8b6b-b53f-4b1b-b5b7-45fb2b157142")
 	)
 	(gr_arc
 		(start 187.512233 49.997767)
@@ -47285,28 +47274,26 @@
 		(layer "Edge.Cuts")
 		(uuid "9a339a39-b363-4e23-b76b-e34705f53129")
 	)
-	(gr_line
-		(start 89.997767 52.497767)
-		(end 90.000003 132.492233)
+	(gr_arc
+		(start 190.002233 132.492233)
+		(mid 189.27 134.26)
+		(end 187.502233 134.992233)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "c3dfe526-07f7-4472-91f4-86d6cf1a789c")
+		(uuid "4cd8ea6a-2b57-4bf5-9117-2100209d8fa1")
 	)
-	(gr_text "+VDC"
-		(at 115.55 124.85 0)
-		(layer "F.SilkS" knockout)
-		(uuid "0e59b510-0030-49e6-8f02-c8eea08ba1a9")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
+	(gr_line
+		(start 190.002233 132.492233)
+		(end 190.012233 52.497767)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
+		(layer "Edge.Cuts")
+		(uuid "1c170825-1bb9-4ac4-bf15-deb4dece6a27")
 	)
 	(gr_text "A"
 		(at 121.59 100.2 0)
@@ -47320,54 +47307,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+VIN"
-		(at 107.7 123.08 0)
-		(layer "F.SilkS" knockout)
-		(uuid "285a1247-ffd7-4fc4-aa2c-9b31c3cb8949")
+	(gr_text "B"
+		(at 124.4 100.91 0)
+		(layer "F.SilkS")
+		(uuid "a7b0646a-2b79-4a82-b0d7-19e8a743ca46")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "MotorController V1.0\nby Nightshadow1258"
-		(at 94.84 100.7 90)
-		(layer "F.SilkS" knockout)
-		(uuid "2c0d7a83-6e82-41d9-8b4e-ced4c8cc1155")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+3.3VA\n"
-		(at 130.72 90.85 0)
-		(layer "F.SilkS" knockout)
-		(uuid "34d054c8-dfdd-4414-b44c-72156487d272")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "EXT"
-		(at 178.89 100.28 0)
-		(layer "F.SilkS" knockout)
-		(uuid "6b89998c-e048-4338-b0b3-9e3dd8869c5e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -47380,6 +47327,19 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 94.28 72.65 90)
+		(layer "F.SilkS")
+		(uuid "f7bce43c-c19f-47a4-9c52-fa3e59a2ca98")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -47397,10 +47357,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "USB"
-		(at 184.11 77.44 0)
+	(gr_text "VIN"
+		(at 91.53 111.16 0)
 		(layer "F.SilkS" knockout)
-		(uuid "9505b5bd-1f3a-4ec3-bfe0-2ad8f6f3b4e8")
+		(uuid "f4f005f5-c898-4f96-9005-0e7c55492223")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -47410,22 +47370,49 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B"
-		(at 124.4 100.91 0)
-		(layer "F.SilkS")
-		(uuid "a7b0646a-2b79-4a82-b0d7-19e8a743ca46")
+	(gr_text "A|B|C"
+		(at 100.1 52.71 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cec8d113-5734-4a5a-bce4-71c4b33b4b04")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "+3.3V"
-		(at 140.57 112.94 0)
+	(gr_text "+VIN"
+		(at 107.7 123.08 0)
 		(layer "F.SilkS" knockout)
-		(uuid "bd74b0d2-5b12-47d9-a312-55cd10301a0b")
+		(uuid "285a1247-ffd7-4fc4-aa2c-9b31c3cb8949")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+VDC"
+		(at 115.55 124.85 0)
+		(layer "F.SilkS" knockout)
+		(uuid "0e59b510-0030-49e6-8f02-c8eea08ba1a9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3.3VA\n"
+		(at 130.72 90.85 0)
+		(layer "F.SilkS" knockout)
+		(uuid "34d054c8-dfdd-4414-b44c-72156487d272")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -47461,10 +47448,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "A|B|C"
-		(at 100.1 52.71 0)
+	(gr_text "+3.3V"
+		(at 140.57 112.94 0)
 		(layer "F.SilkS" knockout)
-		(uuid "cec8d113-5734-4a5a-bce4-71c4b33b4b04")
+		(uuid "bd74b0d2-5b12-47d9-a312-55cd10301a0b")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -47487,32 +47474,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ETH "
-		(at 174.23 126.94 0)
-		(layer "F.SilkS" knockout)
-		(uuid "de516dc2-9d2f-476f-b910-1bc407defa3a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "VIN"
-		(at 91.53 111.16 0)
-		(layer "F.SilkS" knockout)
-		(uuid "f4f005f5-c898-4f96-9005-0e7c55492223")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "DBG"
 		(at 172.6 63.74 0)
 		(layer "F.SilkS" knockout)
@@ -47526,14 +47487,53 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 94.28 72.65 90)
-		(layer "F.SilkS")
-		(uuid "f7bce43c-c19f-47a4-9c52-fa3e59a2ca98")
+	(gr_text "ETH "
+		(at 174.23 126.94 0)
+		(layer "F.SilkS" knockout)
+		(uuid "de516dc2-9d2f-476f-b910-1bc407defa3a")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "EXT"
+		(at 178.89 100.28 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6b89998c-e048-4338-b0b3-9e3dd8869c5e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USB"
+		(at 184.11 77.44 0)
+		(layer "F.SilkS" knockout)
+		(uuid "9505b5bd-1f3a-4ec3-bfe0-2ad8f6f3b4e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MotorController V1.0\nby Nightshadow1258"
+		(at 94.84 100.7 90)
+		(layer "F.SilkS" knockout)
+		(uuid "2c0d7a83-6e82-41d9-8b4e-ced4c8cc1155")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
