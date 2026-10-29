@@ -14,8 +14,6 @@ Hardware design files and documentation for the 3-phase custom Motor Controller 
 - `/KiCAD` - source schematics files
 - `/Documentation/Schematics` — schematic PDF export
 
-/docs — High-resolution photos, pinouts, and test probe point diagrams
-
 # Related Resources
 - Firmware Repository: [Motor Controller Board Firmware](https://github.com/Nightshadow1258/FW_STM32H750VB_DRV8334)
 - Blog Posts:
