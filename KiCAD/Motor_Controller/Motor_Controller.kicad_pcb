@@ -47295,7 +47295,7 @@
 		(layer "Edge.Cuts")
 		(uuid "1c170825-1bb9-4ac4-bf15-deb4dece6a27")
 	)
-	(gr_text "A"
+	(gr_text "C"
 		(at 121.59 100.2 0)
 		(layer "F.SilkS")
 		(uuid "151ce5b7-7c71-4bba-95cd-4b9f3138a5d1")
@@ -47319,7 +47319,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "C"
+	(gr_text "A"
 		(at 125.2 98.55 0)
 		(layer "F.SilkS")
 		(uuid "89578d9a-a847-4925-ad6f-facbed983016")
@@ -47370,7 +47370,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "A|B|C"
+	(gr_text "C|B|A"
 		(at 100.1 52.71 0)
 		(layer "F.SilkS" knockout)
 		(uuid "cec8d113-5734-4a5a-bce4-71c4b33b4b04")

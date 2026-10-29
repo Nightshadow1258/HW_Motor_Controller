@@ -736,7 +736,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAP:C-220uF-EEH-ZA1V271V/P"
+		(symbol "CAP:C-270uF-EEH-ZA1V271V/P"
 			(pin_numbers
 				(hide yes)
 			)
@@ -752,7 +752,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "220uF"
+			(property "Value" "270uF"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -813,7 +813,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C-220uF-EEH-ZA1V271V/P_0_1"
+			(symbol "C-270uF-EEH-ZA1V271V/P_0_1"
 				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
@@ -861,7 +861,7 @@
 					)
 				)
 			)
-			(symbol "C-220uF-EEH-ZA1V271V/P_1_1"
+			(symbol "C-270uF-EEH-ZA1V271V/P_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.8542)
@@ -15151,7 +15151,7 @@
 		(uuid "f00c84f7-f659-4dd4-83d4-911422bc3a93")
 	)
 	(symbol
-		(lib_id "CAP:C-220uF-EEH-ZA1V271V/P")
+		(lib_id "CAP:C-270uF-EEH-ZA1V271V/P")
 		(at 196.85 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15168,7 +15168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "270uF"
 			(at 201.93 27.94 0)
 			(effects
 				(font
@@ -15177,7 +15177,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 196.85 27.94 0)
+			(at 196.85 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +15186,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/CON-Panasonic-EEH-ZAXXXXXX.pdf"
-			(at 196.85 27.94 0)
+			(at 196.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17511,7 +17511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAP:C-220uF-EEH-ZA1V271V/P")
+		(lib_id "CAP:C-270uF-EEH-ZA1V271V/P")
 		(at 214.63 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17528,7 +17528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "270uF"
 			(at 219.71 27.94 0)
 			(effects
 				(font
@@ -17537,7 +17537,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 214.63 27.94 0)
+			(at 214.63 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17546,7 +17546,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/CON-Panasonic-EEH-ZAXXXXXX.pdf"
-			(at 214.63 27.94 0)
+			(at 214.63 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20170,7 +20170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CAP:C-220uF-EEH-ZA1V271V/P")
+		(lib_id "CAP:C-270uF-EEH-ZA1V271V/P")
 		(at 205.74 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20187,7 +20187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "270uF"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -20196,7 +20196,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 205.74 27.94 0)
+			(at 205.74 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20205,7 +20205,7 @@
 			)
 		)
 		(property "Datasheet" "${KICAD_DATASHEET}/CON-Panasonic-EEH-ZAXXXXXX.pdf"
-			(at 205.74 27.94 0)
+			(at 205.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

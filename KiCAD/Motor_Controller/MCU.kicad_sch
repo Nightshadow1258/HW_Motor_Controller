@@ -12029,7 +12029,7 @@
 		)
 		(uuid "28086a20-2a42-4845-accb-d35d25007719")
 	)
-	(hierarchical_label "GDU_MCU_ADC1_INP9_SOA"
+	(hierarchical_label "GDU_MCU_ADC3_INP1_SOA"
 		(shape input)
 		(at 113.03 156.21 0)
 		(effects
@@ -12151,7 +12151,7 @@
 		(uuid "90d05ecb-8c3d-4916-b632-80ed819f8c26")
 	)
 	(hierarchical_label "MCU_PHY_MDIO"
-		(shape output)
+		(shape bidirectional)
 		(at 114.3 67.31 0)
 		(effects
 			(font
@@ -12172,7 +12172,7 @@
 		)
 		(uuid "b27ae76e-bf38-4f51-9771-80435f1c1e8b")
 	)
-	(hierarchical_label "GDU_MCU_ADC3_INP1_SOC"
+	(hierarchical_label "GDU_MCU_ADC1_INP9_SOC"
 		(shape input)
 		(at 116.84 105.41 0)
 		(effects

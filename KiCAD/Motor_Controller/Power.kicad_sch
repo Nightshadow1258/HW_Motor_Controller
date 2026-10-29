@@ -4454,19 +4454,6 @@
 		)
 		(uuid a2c6e3e8-f892-49e5-86bc-82f1889d1b3e)
 	)
-	(text "3.3V ADC"
-		(exclude_from_sim no)
-		(at 54.864 155.448 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "16092794-2cbd-4ef2-a2f7-2d1fc6035c34")
-	)
 	(text "LDO 3.3V max 200mA"
 		(exclude_from_sim no)
 		(at 82.296 161.544 0)

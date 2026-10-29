@@ -1974,7 +1974,7 @@
 				(justify right)
 			)
 		)
-		(pin "GDU_MCU_ADC1_INP9_SOA" input
+		(pin "GDU_MCU_ADC3_INP1_SOA" input
 			(at 161.29 105.41 0)
 			(uuid "43efcda0-47e2-4aed-ba91-0c6ed6853674")
 			(effects
@@ -1994,7 +1994,7 @@
 				(justify right)
 			)
 		)
-		(pin "GDU_MCU_ADC3_INP1_SOC" input
+		(pin "GDU_MCU_ADC1_INP9_SOC" input
 			(at 161.29 107.95 0)
 			(uuid "02360303-2871-42d7-9529-f43e8416b80b")
 			(effects
